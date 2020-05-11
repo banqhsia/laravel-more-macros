@@ -7,5 +7,9 @@
             "email": "banqhsia@msn.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "illuminate/support": "^7.10",
+        "symfony/var-dumper": "^5.0"
+    }
 }
