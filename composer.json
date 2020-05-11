@@ -1,0 +1,11 @@
+{
+    "name": "benyi/laravel-more-macros",
+    "description": "Provides more macros for illuminate/support or Laravel Macroble classes.",
+    "authors": [
+        {
+            "name": "Benyi",
+            "email": "banqhsia@msn.com"
+        }
+    ],
+    "require": {}
+}
