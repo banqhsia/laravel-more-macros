@@ -3,7 +3,7 @@
 namespace Illuminate\Support {
 
     /**
-     * @method static array absent(\ArrayAccess|array $array, string $key)
+     * @method static array absent(\ArrayAccess|array $array, string $key) Check if an item is not exists in an array using "dot" notation.
      */
     class Arr
     {}
