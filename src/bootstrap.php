@@ -14,4 +14,10 @@ namespace Illuminate\Support {
      */
     class Carbon
     {}
+
+    /**
+     * @method $this diffCi(mixed $items) Diff the collection with the given items (case insensitive)
+     */
+    class Collection
+    {}
 }
