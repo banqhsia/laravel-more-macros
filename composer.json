@@ -1,6 +1,7 @@
 {
     "name": "benyi/laravel-more-macros",
     "description": "Provides more macros for illuminate/support or Laravel Macroble classes.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Benyi",
