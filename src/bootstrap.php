@@ -20,4 +20,7 @@ namespace Illuminate\Support {
      */
     class Collection
     {}
+
+    class LaravelMoreMacrosIdeHelperLoaded {
+    }
 }
