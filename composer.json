@@ -12,7 +12,8 @@
     "require-dev": {
         "illuminate/support": "^7.10",
         "symfony/var-dumper": "^5.0",
-        "phpunit/phpunit": "^9.1"
+        "phpunit/phpunit": "^9.1",
+        "barryvdh/reflection-docblock": "^2.0"
     },
     "autoload": {
         "files": [
