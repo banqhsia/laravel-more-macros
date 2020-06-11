@@ -12,7 +12,7 @@ $classes = [
     \Illuminate\Support\Carbon::class,
 ];
 
-$buildedMethods[] = "```php" . PHP_EOL;
+$buildedMethods[] = "```";
 foreach ($classes as $class) {
     /** @var MethodTag[]|object */
     $methods = (new DocBlock(

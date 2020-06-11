@@ -13,7 +13,7 @@ Provides more macros for illuminate/support or Laravel Macroble classes.
 ## Methods
 > See [`bootstrap.php`](https://github.com/banqhsia/laravel-more-macros/blob/master/src/bootstrap.php) file listing.
 
-```php
+```
 /**
  * Check if an item is not exists in an array using "dot" notation.
  *
