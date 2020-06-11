@@ -38,7 +38,7 @@ foreach ($classes as $class) {
  *
 {$paramDoc}
  * @return {$returnType}
- * /
+ */
 {$class->getName()}::{$method->getMethodName()}($arguments)
 HA.PHP_EOL.PHP_EOL
         );

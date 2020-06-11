@@ -4,6 +4,7 @@ namespace Illuminate\Support {
 
     /**
      * @method static array absent(\ArrayAccess|array $array, string $key) Check if an item is not exists in an array using "dot" notation.
+     * @method static array undot(array $array) "Un-dot" the flattened array into multi-dimensional structure.
      */
     class Arr
     {}

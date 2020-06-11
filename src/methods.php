@@ -9,6 +9,10 @@ if (! class_exists(\Illuminate\Support\LaravelMoreMacrosIdeHelperLoaded::class))
         Arr::macro('absent', function ($array, $keys) {
             return ! static::has($array, $keys);
         });
+
+        Arr::macro('undot', function () {
+            return array_undot(...func_get_args());
+        });
     }
 
     if (class_exists(\Illuminate\Support\Carbon::class)) {

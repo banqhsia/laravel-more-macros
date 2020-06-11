@@ -20,8 +20,17 @@ Provides more macros for illuminate/support or Laravel Macroble classes.
  * @param \ArrayAccess|array $array
  * @param string $key
  * @return array
- * /
+ */
 Illuminate\Support\Arr::absent($array, $key)
+
+
+/**
+ * "Un-dot" the flattened array into multi-dimensional structure.
+ *
+ * @param array $array
+ * @return array
+ */
+Illuminate\Support\Arr::undot($array)
 
 
 /**
@@ -29,7 +38,7 @@ Illuminate\Support\Arr::absent($array, $key)
  *
  * @param mixed $items
  * @return $this
- * /
+ */
 Illuminate\Support\Collection::diffCi($items)
 
 
@@ -39,7 +48,7 @@ Illuminate\Support\Collection::diffCi($items)
  * @param string|null $time
  * @param \DateTimeZone|string|null $tz
  * @return bool
- * /
+ */
 Illuminate\Support\Carbon::recognized($time, $tz)
 
 
@@ -49,7 +58,7 @@ Illuminate\Support\Carbon::recognized($time, $tz)
  * @param string|null $time
  * @param \DateTimeZone|string|null $tz
  * @return bool
- * /
+ */
 Illuminate\Support\Carbon::unrecognized($time, $tz)
 
 
