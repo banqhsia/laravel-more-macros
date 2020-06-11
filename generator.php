@@ -47,4 +47,8 @@ HA.PHP_EOL.PHP_EOL
 
 $buildedMethods[] = "```";
 
-echo implode(PHP_EOL, $buildedMethods);
+$result = implode(PHP_EOL, $buildedMethods);
+
+$template = file_get_contents(__DIR__ . "/README.template.md");
+
+file_put_contents(__DIR__ . "/README.md", str_replace("{{ METHODS_HERE }}", $result, $template));
